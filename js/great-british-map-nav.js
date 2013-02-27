@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('#group-bi').click(function() {
+	$('#group-bi').mouseenter(function() {
 		$('.subunit.ENG').css({"fill" : "CCCCCC"});
 		$('.subunit.SCT').css({"fill" : "CCCCCC"});
 		$('.subunit.WLS').css({"fill" : "CCCCCC"});
@@ -14,7 +14,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$('#island-gbr').click(function() {
+	$('#island-gbr').mouseenter(function() {
 		$('.subunit.ENG').css({"fill" : "CCFFCC"});
 		$('.subunit.SCT').css({"fill" : "CCFFCC"});
 		$('.subunit.WLS').css({"fill" : "CCFFCC"});
@@ -29,7 +29,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$('#island-irl').click(function() {
+	$('#island-irl').mouseenter(function() {
 		$('.subunit.IRL').css({'fill' : 'CCFFCC'});
 		$('.subunit.NIR').css({"fill" : "CCFFCC"});
 
@@ -44,7 +44,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$('#island-imn').click(function() {
+	$('#island-imn').mouseenter(function() {
 		$('.subunit.IMN').css({'fill' : 'CCFFCC'});
 
 		$('.subunit.ENG').css({"fill" : "CCCCCC"});
@@ -60,7 +60,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$('#island-chl').click(function() {
+	$('#island-chl').mouseenter(function() {
 		$('.subunit.GGA').css({"fill" : "CCFFCC"});
 		$('.subunit.GGG').css({"fill" : "CCFFCC"});
 		$('.subunit.GGS').css({"fill" : "CCFFCC"});
@@ -76,7 +76,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$('#state-gbr').click(function() {
+	$('#state-gbr').mouseenter(function() {
 		$('.subunit.ENG').css({"fill" : "CC3333"});
 		$('.subunit.SCT').css({"fill" : "CC3333"});
 		$('.subunit.WLS').css({"fill" : "CC3333"});
@@ -91,7 +91,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$('#state-irl').click(function() {
+	$('#state-irl').mouseenter(function() {
 		$('.subunit.IRL').css({"fill" : "CC3333"});
 
 		$('.subunit.ENG').css({"fill" : "CCCCCC"});
@@ -107,7 +107,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$('#country-eng').click(function() {
+	$('#country-eng').mouseenter(function() {
 		$('.subunit.ENG').css({"fill" : "FFFF99"});
 
 		$('.subunit.IRL').css({"fill" : "CCCCCC"});
@@ -123,7 +123,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$('#country-sct').click(function() {
+	$('#country-sct').mouseenter(function() {
 		$('.subunit.SCT').css({"fill" : "FFFF99"});
 
 		$('.subunit.IRL').css({"fill" : "CCCCCC"});
@@ -139,7 +139,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$('#country-wls').click(function() {
+	$('#country-wls').mouseenter(function() {
 		$('.subunit.WLS').css({"fill" : "FFFF99"});
 
 		$('.subunit.IRL').css({"fill" : "CCCCCC"});
@@ -155,7 +155,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$('#country-nir').click(function() {
+	$('#country-nir').mouseenter(function() {
 		$('.subunit.NIR').css({"fill" : "FFFF99"});
 
 		$('.subunit.IRL').css({"fill" : "CCCCCC"});
@@ -171,7 +171,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$('#cd-imn').click(function() {
+	$('#cd-imn').mouseenter(function() {
 		$('.subunit.IMN').css({'fill' : '9999FF'});
 
 		$('.subunit.ENG').css({"fill" : "CCCCCC"});
@@ -187,7 +187,7 @@ $(document).ready(function() {
 		return false;
 	});
 
-	$('#cd-chl').click(function() {
+	$('#cd-chl').mouseenter(function() {
 		$('.subunit.GGA').css({"fill" : "9999FF"});
 		$('.subunit.GGG').css({"fill" : "9999FF"});
 		$('.subunit.GGS').css({"fill" : "9999FF"});
