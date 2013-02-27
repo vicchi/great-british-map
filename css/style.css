@@ -1,0 +1,66 @@
+body, html {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	padding-bottom: 5px;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #000000;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+text {
+	font-size: 7px;
+	pointer-events: none;
+}
+
+#github-ribbon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
+	z-index: 100;
+}
+.subunit {
+	fill: #D1CEDD;
+}
+
+.subunit-boundary {
+	fill: none;
+	stroke: #777;
+	stroke-dasharray: 2.2;
+	stroke-linejoin: round;
+}
+
+#nav {
+	position: absolute;
+	top: 70px;
+	left: 0;
+}
+
+#footer {
+	font-size: 75%;
+}
+
+#credits {
+	float: left;
+}
+
+#attribution {
+	float: right;
+}
