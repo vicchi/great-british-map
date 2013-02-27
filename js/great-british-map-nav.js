@@ -82,6 +82,7 @@ $(document).ready(function() {
 		$('.subunit.WLS').css({"fill" : "CC3333"});
 		$('.subunit.NIR').css({"fill" : "CC3333"});
 
+		$('.subunit.IRL').css({"fill" : "CCCCCC"});
 		$('.subunit.IMN').css({"fill" : "CCCCCC"});
 		$('.subunit.GGA').css({"fill" : "CCCCCC"});
 		$('.subunit.GGG').css({"fill" : "CCCCCC"});
