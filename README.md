@@ -7,3 +7,5 @@ A vector map of the world's 9th. largest island that attempts to help answer som
 * What about Scotland, Wales and Northern Ireland?
 
 Using data from [Natural Earth](http://www.naturalearthdata.com/) and visualisations from [D3](http://d3js.org/) this map tries to explain what the difference is between Great Britain, the United Kingdom and the British Isles.
+
+Meanwhile, here's a [blog post](http://www.vicchi.org/2013/02/27/the-great-british-map-or-great-britain-vs-the-united-kingdom-vs-the-british-isles).
