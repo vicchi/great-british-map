@@ -47,6 +47,34 @@ text {
 	stroke-linejoin: round;
 }
 
+.group, .islands, .states, .countries, .dependencies {
+	text-shadow:
+	    -1px -1px 0 #000,
+	    1px -1px 0 #000,
+	    -1px 1px 0 #000,
+	    1px 1px 0 #000;
+}
+
+.group a:link, .group a:visited {
+	color: #CCCCCC;
+}
+
+.islands a:link, .islands a:visited {
+	color: #CCFFCC;
+}
+
+.states a:link, .states a:visited {
+	color: #CC3333;
+}
+
+.countries a:link, .countries a:visited {
+	color: #FFFF00;
+}
+
+.dependencies a:link, .dependencies a:visited {
+	color: #9999FF;
+}
+
 #nav {
 	position: absolute;
 	top: 70px;
