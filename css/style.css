@@ -82,7 +82,10 @@ text {
 }
 
 #footer {
-	font-size: 75%;
+	font-size: 60%;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #credits {
